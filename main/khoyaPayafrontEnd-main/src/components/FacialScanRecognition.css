@@ -1,0 +1,41 @@
+.container3 {
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+    margin-top: -550px;
+  }
+  
+  .box {
+    background-color: #1F6E8C;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .popup {
+    position: absolute; /* Change to absolute positioning */
+    top: 100%; /* Position below the box */
+    left: 0;
+    background-color: #1F6E8C;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    margin-left: 520px;
+  }
+  
+  .popup button {
+    background-color: #3F8EA7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #1F6E8C;
+  }

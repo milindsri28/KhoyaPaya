@@ -1,0 +1,40 @@
+.headingText1{
+    color: white;
+}
+.container2{
+    margin-top: -550px;
+}
+.fileInputContainer {
+    margin-top: 120px;
+    padding: 20px;
+    background-color: #1F6E8C;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  label {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .customFileInput {
+    background-color: #3F8EA7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .customFileInput:hover {
+    background-color: #1F6E8C;
+  }
+  

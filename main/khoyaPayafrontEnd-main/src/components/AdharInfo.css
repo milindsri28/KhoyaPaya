@@ -1,0 +1,56 @@
+.container4{
+    margin-top: -550px;
+}
+.container4 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+.box {
+    background-color: #1F6E8C;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto; /* Add overflow for scrollbar if needed */
+  }
+  
+  .adharTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .adharText{
+    color: white;
+  }
+  .adharTable th, .adharTable td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+  }
+  .addAdharButton{
+    margin-left: -33px;
+  }
+  .adharTable th {
+    background-color: #1F6E8C;
+  }
+  
+  .adharTable td {
+    background-color: white; /* Set background color for table body */
+    color: black; /* Set text color for table content */
+  }
+  
+  .updateButton, .deleteButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+  }

@@ -1,0 +1,50 @@
+.headingText {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .container1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: -550px;
+  }
+  
+  .horizontalLine {
+    background-color: #1F6E8C;
+    height: 5px;
+    width: 100%;
+    margin: 20px auto; 
+  }
+  
+  .bigBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
+  }
+  
+  .box1, .box2 {
+    width: 45%; 
+    height: 400px; 
+    border-radius: 20px;
+    opacity: 0.9;
+    background-color: #1F6E8C;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .boxContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .box h2 {
+    margin-bottom: 1em;
+  }
+  
+  .box img {
+    max-width: 100%;
+    max-height: 100%;
+  }

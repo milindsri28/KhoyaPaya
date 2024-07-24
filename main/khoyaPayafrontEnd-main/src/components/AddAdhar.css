@@ -1,0 +1,38 @@
+.container5 {
+    text-align: center;
+    padding: 20px;
+    margin-top: -500px;
+  }
+  
+  .addAdharHeading {
+    color: #1F6E8C;
+  }
+  .laal{
+    color: red;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #1F6E8C;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

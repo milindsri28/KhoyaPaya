@@ -1,0 +1,49 @@
+.contactUsContainer {
+
+    padding: 50px 0;
+    margin-top: -500px;
+}
+
+.contactUsContent {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chotuContent {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.contact {
+    color: #1F6E8C;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #1F6E8C;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

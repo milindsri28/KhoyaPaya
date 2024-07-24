@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container{
+    margin-top: -650px;
+  }
+  .text {
+    flex: 1;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: center; 
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
